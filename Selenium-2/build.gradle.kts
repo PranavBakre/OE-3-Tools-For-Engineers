@@ -21,7 +21,7 @@ val run by tasks.getting(JavaExec::class) {
 tasks {
     compileKotlin {
         kotlinOptions {
-            jvmTarget = "1.8"
+            jvmTarget = "11"
         }
     }
 }
